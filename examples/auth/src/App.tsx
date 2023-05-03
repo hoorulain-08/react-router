@@ -117,7 +117,7 @@ function AuthStatus() {
     <p>
      
       <button>
-        Sign out
+        Sign out here 
       </button>
     </p>
   );
