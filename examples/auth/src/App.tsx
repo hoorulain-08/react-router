@@ -18,7 +18,7 @@ export default function App() {
       <p>
         This example demonstrates a simple login flow with three pages: a public
         page, a protected page, and a login page. In order to see the protected
-        page, you must first login. Pretty standard stuff.
+        page, you must first login.
       </p>
 
       <p>
@@ -115,12 +115,8 @@ function AuthStatus() {
 
   return (
     <p>
-      Welcome {auth.user}!{" "}
-      <button
-        onClick={() => {
-          auth.signout(() => navigate("/"));
-        }}
-      >
+     
+      <button>
         Sign out
       </button>
     </p>
